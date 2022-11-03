@@ -1,5 +1,5 @@
 import css from './Phonebook.module.css';
-import { Phonebook } from './Phonebook';
+import Phonebook  from './Phonebook';
 
 export const App = () => {
   return (
