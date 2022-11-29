@@ -7,7 +7,7 @@ import ContactForm from './ContactForm';
 import useLocalStorage from '../hooks/useLocalStorage'
 
 export default function Phonebook() {
-  const [contacts, setContacts] = useLocalStorage('CONTACTS', []);
+  const [contacts, setContacts] = useLocalStorage('CONTACTS', '[]');
   const [filter, setFilter] = useState('');
 
   const formSubmitHandler = ({ name, number }) => {
